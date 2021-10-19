@@ -1,0 +1,9 @@
+@font-face{font-family:dana;font-style:normal;font-weight:400;src:url(dana-regular.woff2)}
+.container{opacity:.7;background:#fff;margin:100px auto;width:600px;max-width:90%;padding:20px;border-radius:25px;direction:rtl;font-family:dana;text-align:center}
+.container .float-left,.container .float-right{width:50%;display:inline-block}
+.container .clear{clear:both}
+.container .float-left{float:left}
+.container .float-right{float:right}
+.container input[type="text"]{font-family:dana;outline:none;border-radius:10px;padding:5px 10px;text-align:center;border:1px solid #000;box-shadow:none;font-size:14px;direction:ltr;letter-spacing:2px}
+.container button{font-family:dana;border-radius:10px;padding:5px 10px;border:1px solid #000;box-shadow:none;font-size:14px;cursor:pointer}
+.container .random{margin-top:30px}

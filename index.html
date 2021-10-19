@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>تبدیل کد رنگ</title>
+	<link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+<body id="body" onload="onload()">
+	<div class="container">
+		<h1>تبدیل کد رنگ</h1>
+		<h2>تبدیل کد رنگ RGBF به HEX و بلعکس</h2>
+		<div class="float-right">
+			<h3>رنگ HEX یا هگزادسیمال</h3>
+			<p><input type="text" id="hex" onkeyup="changecolor('hex')" /></p>
+			<p><button id="copyhex" onclick="copyclipboard('hex')">کپی کردن</button></p>
+		</div>
+		<div class="float-left">
+			<h3>رنگ RGB</h3>
+			<p><input type="text" id="rgb" onkeyup="changecolor('rgb')" /></p>
+			<p><button id="copyrgb" onclick="copyclipboard('rgb')">کپی کردن</button></p>
+		</div>
+		<div class="clear"></div>
+		<div class="random">
+			<button id="random" onclick="randomcolor()">رنگ تصادفی</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="color.js"></script>
+</body>
+</html>
